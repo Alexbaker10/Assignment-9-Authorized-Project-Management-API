@@ -14,7 +14,7 @@ async function seedDatabase() {
             {
                 name: 'John Employee',
                 email: 'john@company.com',
-                password: hashedPassword
+                password: hashedPassword,
                 role: 'employee'
 
 
@@ -22,7 +22,7 @@ async function seedDatabase() {
             {
                 name: 'Sarah Manager',
                 email: 'sarah@company.com',
-                password: hashedPassword
+                password: hashedPassword,
                 role: 'manager'
 
 
@@ -30,7 +30,7 @@ async function seedDatabase() {
             {
                 name: 'Mike Admin',
                 email: 'mike@company.com',
-                password: hashedPassword
+                password: hashedPassword,
                 role: 'admin'
 
                 
